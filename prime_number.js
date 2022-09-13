@@ -1,12 +1,12 @@
 // prime number
 let num=13;
-for(var i=1;i<=num;i++){
+for(let i=1;i<=num;i++){
     if (num%i===0){
-          prime="Yes";
-    }else{
-        prime="No";
+		count++;
     }
- 
-    }
- console.log(prime);
 }
+if(count==2){
+	console.log("Yes");
+}else{
+	console.log("No");
+};
